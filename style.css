@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.planet-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.planet-card {
+    align-items: center;
+    border: 3px solid #222;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    padding: 16px;
+}
+
+.planet-card h3 {
+    font-size: 1.5em;
+}
+
+.planet-card p {
+    margin: 0;
+    width: 320px;
+}
